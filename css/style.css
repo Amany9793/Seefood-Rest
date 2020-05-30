@@ -1,0 +1,270 @@
+*{
+    margin: 0; padding: 0; box-sizing:border-box ;
+}
+html{
+    background-color: #fff; color: #555;
+    font-family: 'lato' , sans-serif;  font-size: 16px;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.7)) ,
+    url(../images/hero1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-box{
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+h1{
+    color: #fff; margin-top: 0px; margin-bottom: 20px;
+    font-size: 180%; text-transform: uppercase;
+    font-weight: 300; word-spacing: 3px; letter-spacing: 2px;
+
+}
+.btn:link , .btn:visited{
+    border: solid 1px #4997d0;
+    padding: 10px 30px; margin-left: 15px;
+    border-radius: 12px; text-decoration: none;
+    color:#fff;
+}
+
+.btn:hover , .btn:active{
+    background-color: #4997d0 ;
+}
+
+.logo{
+    height: 100px; margin-top: 20px;
+    margin-left: 100px; float: left;
+}
+.main-nav{
+    float: right; 
+    margin-top: 55px;
+    margin-right: 100px;
+
+}
+ .main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+ }
+ .main-nav li a:link , .main-nav li a:visited{
+    color: #fff; text-decoration: none;
+    border-bottom: solid 2px transparent ;
+    padding-bottom: 5px;
+    transition: all 1s;
+}
+.main-nav li a:hover , .main-nav li a:active{
+    color:  #4997d0;
+    border-bottom: solid 2px  #4997d0;
+
+}
+
+section{
+    padding: 40px 0px;
+
+}
+
+h2{
+    margin-top: 0px; margin-bottom: 20px;
+    font-size: 150%; text-transform: uppercase;
+    text-align: center; font-weight: 300;
+    word-spacing: 3px; letter-spacing: 2px;
+
+
+
+}
+
+h2::after{
+    display: block;  content: ""; 
+    width: 100px; height: 4px; 
+    background-color:  #4997d0;
+    margin: 20px auto;
+  }
+
+/* hr{
+    border: none;
+    border-bottom: 1px solid  #e67e22 ;
+    width: 100px; margin: 20px auto;
+} */
+
+.feat-desc{
+    width: 60%; margin-left: 20%;
+    text-align: center; margin-bottom: 25px;
+}
+
+.box i{
+      color:  #4997d0;
+      font-size: 20px; margin-left: 50px; margin-bottom: 10px;
+}
+.box h3{
+    font-size: 120%; margin-bottom: 10px;
+}
+
+.meal{
+    padding: 0; background-color: #000000;
+    overflow: hidden; 
+}
+
+.meal img{
+    width: 100%; opacity: 0.6; transform: scale(1.1) ;
+    transition: all 1s; 
+}
+
+.meal img:hover{
+    opacity: 1; transform: scale(1) rotate(360);
+}
+
+#works-steps{
+    background-color: #f4f4f4;
+}
+
+.step-box{
+    margin-top:  30px;
+}
+.app-screen{width: 40%;}
+
+.step-box:first-child{
+   text-align: right; padding-right: 3%;
+}
+.step-box:last-child{
+   text-align: left; padding-left: 3%; margin-top: 70px;
+}
+
+.step{
+    margin-bottom: 50px; display: flex;
+}
+
+.step div{
+    width: 50px; height: 50px;
+     border:  2px solid  #4997d0;
+      border-radius: 50%; 
+      text-align: center; padding: 13px;
+      margin-right: 12px;
+}
+
+
+
+.city img{
+    width: 100%; margin-bottom: 15px;
+}
+
+.city h3{
+    margin-bottom: 15px; text-align: center;
+}
+
+.miza{
+    margin-bottom: 10px;
+}
+
+.miza i{
+    margin-right: 10px; color:  #4997d0;
+}
+
+
+
+ #testimonials{
+    background-image: linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.7)) , url(../images/back-cust.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: #fff;
+   }
+   
+   blockquote{
+    font-style: italic; padding: 2%;
+    line-height: 150%; margin-top: 30px;
+    position: relative;
+   }
+   
+   blockquote::before{
+    content: "\201c"; display: block;
+    font-size: 500%;
+    position: absolute; left: -20px; top: -5px;
+   }
+
+   
+   cite{
+    margin-top: 25px; display: block;
+   }
+   
+   cite img{
+    height: 50px; border-radius: 50%;
+    vertical-align: middle; margin-right: 15px;
+   }
+
+
+   input[type=text] , input[type=email] , select ,textarea{
+       width: 100%;  padding: 7px; border-radius: 5px;
+       margin-bottom: 10px;
+       border: solid 1px #ccc;
+
+  }
+
+  textarea{
+      height: 200px;
+  }
+
+  input[type=checkbox]{
+     margin: 10px 5px 10px 0px; 
+
+  }
+
+
+
+
+
+  #plans{
+      background-color:#f4f4f4;
+  }
+  .can{
+      background-color:white;
+      width: 100%;
+      margin-bottom: 15px;
+      border: 5px;
+  }
+
+
+
+
+  footer{
+    padding: 30px 0px; background-color: #333;
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center; color: #ddd;
+}
+
+.footer-nav{
+    list-style: none; float: left;
+}
+.social-nav{
+    list-style: none; float: right;
+}
+
+.footer-nav li , .social-nav li{
+    display: inline-block; margin-left: 20px;
+}
+
+.footer-nav li a:link , .footer-nav li a:visited , .social-nav li a:link , .social-nav li a:visited{
+    color: #888; text-decoration: none;
+}
+
+.footer-nav li a:hover , .footer-nav li a:active , .social-nav li a:hover , .social-nav li a:active{
+    color: #ddd; text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
